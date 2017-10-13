@@ -1,0 +1,10 @@
+def getPositive(num):
+  while num < 0:
+    num = int(input("Please enter a positive number"))
+
+
+def getNegative(num):
+  while num > 0:
+    num = int(input("Please enter a negative number"))
+
+
