@@ -1,0 +1,27 @@
+def countVowels(list):
+    count = 0
+    for x in len(range(list)):
+        if x == "a" or x=="e" or x=="i" or x == "o" or x == "u":
+            count += 1
+        else:
+            print("not a vowel")
+    return count
+def elementsAbsVal(list):
+    for x in len(range(list)):
+        bList = []
+        bList.append(abs(x))
+        
+    return bList
+
+def main():
+    aList = ['h', 'e', 'l', 'l', 'o']
+    vowelCount = countVowels(aList)
+    print("There are", vowelCount, "vowels in", aList)
+
+    myList = [-1, 2, -3, -4, 5, 6, -7, 8, -9, -10]
+    print(myList)
+    elementAbsVal(myList)
+    print(myList)
+
+
+main()
